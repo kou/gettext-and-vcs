@@ -9,5 +9,6 @@ main(void)
   bindtextdomain("hello", "locale");
   textdomain("hello");
   puts(gettext("Hello"));
+  puts(gettext("World"));
   return 0;
 }
